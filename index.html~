@@ -1,0 +1,23 @@
+<html>
+<title> Tedit </title>
+<head>
+	<script src="/lib/codemirror.js"></script>
+	<script
+	src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" 		  crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/lib/codemirror.css">
+</head>
+
+<body>
+	<div id="html-textarea"></div>
+	<div id="css-textarea"></div>
+	<div id="js-textarea"></div>
+
+        
+	<script src="/lib/codemirror.js"></script>
+	<script src="/mode/xml/xml.js"></script>
+	<script src="/mode/htmlmixed/htmlmixed.js"></script>
+	<script src="/mode/css/css.js"></script>
+	<script src="/mode/javascript/javascript.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
