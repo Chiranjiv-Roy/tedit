@@ -2,7 +2,7 @@
   "name": "tedit",
   "version": "1.0.0",
   "description": "Collaborative online code editor",
-  "main": "src/main.js",
+  "main": "src/client-app.js",
   "dependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
@@ -14,13 +14,15 @@
     "inert": "^4.1.0",
     "octokit": "^0.10.4",
     "react": "^15.4.2",
+    "react-codemirror": "^0.3.0",
     "react-dom": "^15.4.2",
+    "react-router": "^3.0.2",
     "webpack": "^2.2.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "Chiranjiv Roy",
